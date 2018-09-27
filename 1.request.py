@@ -1,12 +1,12 @@
-def calculator(first_number,second_number,function):
+def calculator(first_number, second_number, fun):
     answer = None
-    if function == "addition":
+    if fun == "addition":
         answer = first_number + second_number
-    elif function == "subtraction":
+    elif fun == "subtraction":
         answer = first_number - second_number
-    elif function == "multiplication":
+    elif fun == "multiplication":
         answer = first_number * second_number
-    elif function == "division":
+    elif fun == "division":
         answer = first_number / second_number
 
     return answer
