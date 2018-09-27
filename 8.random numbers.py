@@ -1,6 +1,10 @@
 import random
 
 
-def ran(x):
-    x = random.randrange(1, 13)
+def ran(a, b):
+    x = random.randrange(a, b)
     return x
+
+
+ans = ran(1, 13)
+print(ans)
