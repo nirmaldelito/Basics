@@ -1,9 +1,12 @@
-def x(word):
-    pop = word[::-1]
-    if word == pop:
+def pal(word):
+    new = word.lower()
+    space = new.replace(" ", "")
+    rev = space[::-1]
+    if space == rev:
         return True
     else:
         return False
 
-a = x('malayalam')
-print(a)
+
+ans = pal("A nut for a jar of tuna")
+print(ans)
