@@ -1,8 +1,8 @@
 import collections
 
 
-def lion(pop):
-    new = collections.Counter(pop)
+def give(sentence):
+    new = collections.Counter(sentence)
     lis = []
     for n, m in new.items():
         if m == 1:
@@ -10,6 +10,7 @@ def lion(pop):
     return lis
 
 
-q = lion("ghkadhkdhadj")
+ans = give("I like working for Jyroo because I like the problem they are solving. "
+         "Good education lays a strong foundation for a brighter tomorrow")
 
-print(q) 
+print(ans)
